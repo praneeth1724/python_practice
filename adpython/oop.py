@@ -1,3 +1,4 @@
+import js 
 class login:
     def __init__(self,name,passw):
         for user in users:
@@ -15,4 +16,4 @@ users = { "praneeth" : "1724" , "xyz" : "1234"}
 up =  input("enter your name:")
 pw = input("enter your password:")
 login(up,pw)
-
+js.to_dump(users,"users.json")
