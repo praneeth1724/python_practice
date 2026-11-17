@@ -1,4 +1,4 @@
-while True:
+while True:    
     print("____Prime Number Menu_____")
     print("1.check Prime number")
     print("2.generate prime number")
